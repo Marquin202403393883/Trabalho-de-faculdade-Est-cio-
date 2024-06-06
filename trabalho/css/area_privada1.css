@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    color: black;
+    font-family: Arial;
+}
+
+div#cortes {
+    width: 420px;
+    margin: 150px auto 0px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #535353;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+    position: fixed;
+    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    right: 40px; /* Ajuste a distância da direita conforme necessário */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.gif-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
